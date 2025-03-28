@@ -1,0 +1,189 @@
+:root{
+    --color1: #c62314;
+    --color2: #130e27;
+    --color3: #efefef;
+    --color4: #646171;
+    --fsize: 17px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}  
+/* Общие */
+.container{
+margin: 0 auto;
+width: 1000px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 0;
+}
+/* Шапка сайта */
+header{
+    background-image: url(../img/5f2a26abb57c78b6ad19b3dfa841dc30.w5472.h3648.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 35px;
+    color: var(--color1);
+}
+.menu {
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: var(--color3);
+    font-weight: 500;
+    margin-right: 35px;
+    padding: 5px 7px;
+}
+.menu a:hover{
+    padding: 3px 5px 3px 5px;
+    border: 1px solid var(--color1);
+    background-color: var(--color1);
+    border-radius: 5px;
+}
+.header_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    align-items: start;
+    width: 483px;
+}
+.head_content {
+    color: var(--color1);
+    font-size: 30px;
+    text-align: justify;
+}
+.title {
+    color: var(--color3);
+    font-size: 70px;
+    position: absolute;
+    top: 200px;
+}
+/* Сервисы */
+
+.main-title {
+    color: var(--color1);
+    width: 363px;
+}
+.icones_content {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-content {
+    width: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon {
+    font-size: 150px;
+}
+.icon_text {
+    font-size: var(--fsize);
+    text-align: center;
+}
+/* Наша история */
+.section3 {
+    background-color: var(--color2);
+    margin-bottom: 0;
+}
+.my_story{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.story {
+    font-size: var(--fsize);
+    color: var(--color3);
+    margin-right: 140px;
+    text-align: center;
+
+}
+.our_store {
+    width: 272px;
+    height: 66px;
+    background-color: var(--color1);
+    color: var(--color3);
+    font-weight: bold;
+}
+/* Цены */
+.section4 {
+    background-color: var(--color3);
+    
+}
+.price {
+    color: var(--color4);
+    
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: var(--color3);
+    padding-bottom: 20px;
+}
+.card {
+    border: 1px solid var(--color3);
+    padding: 35px 57px 10px 60px;
+    margin-right: 12px;
+   width: 319px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: #fff;
+}
+.card:last-child{
+    margin-right: 0;
+}
+.card-content {
+    font-size: var(--fsize);
+    text-align: center;
+}
+.card-title {
+    color: var(--color1);
+}
+.card-but {
+    width: 206px;
+    height: 50px ; 
+    color: var(--color3);
+    background-color: var(--color1);
+    font-weight: bold;
+    border: 1px solid var(--color1);
+    border-radius: 5px;
+}
+/* Подвал сайта */
+.section5 {
+    background-color: var(--color2);
+    margin-bottom: 0;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.footer_content {
+    font-size: var(--fsize);
+    color: var(--color3);
+}
